@@ -104,10 +104,30 @@
     .button {
       background-color: hsl(71, 73%, 54%);
       padding: 1rem;
+      color: white;
+      font-weight: 400;
       text-align: center;
+      border-width: 0px;
       border-radius: 0.6rem;
-      box-shadow: black 2px;
+      border-color: none;
+      text-decoration: none;
+      box-shadow: rgb(45, 45, 45) 2px;
+      font-weight: 700;
+      width: 100%;
+    }
 
+    .button:hover{
+      background-color: hsl(71, 77%, 55%);
+      padding: 1rem;
+      color: white;
+      font-weight: 400;
+      text-align: center;
+      border-width: 0px;
+      border-radius: 0.6rem;
+      border-color: none;
+      text-decoration: none;
+      font-weight: 700;
+      width: 100%;
     }
 
     .footer{
@@ -146,6 +166,10 @@
         font-size: medium;
         color: #8ae4e5;
       }
+
+      .button{
+        font-weight: 400;
+      }
     }
   </style>
 </head>
@@ -181,9 +205,9 @@
           <br>
           <br>
 
-          <div class="button">
+          <button class="button" id="signup" value="Sign Up" onmouseenter="changeColor()">
             Sign Up
-          </div>
+          </button>
 
         </div>
 
