@@ -116,7 +116,7 @@
       width: 100%;
     }
 
-    .button:hover{
+    .button:hover {
       background-color: hsl(71, 77%, 55%);
       padding: 1rem;
       color: white;
@@ -130,9 +130,9 @@
       width: 100%;
     }
 
-    .footer{
-      top:20px;
-      display:block;
+    .footer {
+      top: 20px;
+      display: block;
       position: static;
     }
 
@@ -140,11 +140,11 @@
       body {
         overflow: auto;
       }
-      
-      .container{
+
+      .container {
         height: fit-content;
       }
-      
+
       .heading-container {
         padding: 1rem;
       }
@@ -167,7 +167,7 @@
         color: #8ae4e5;
       }
 
-      .button{
+      .button {
         font-weight: 400;
       }
     }
@@ -175,60 +175,62 @@
 </head>
 
 <body>
-  <div class="container">
-    <div class="heading-container">
-      <h1 class="heading">Join our community</h1>
+  <main>
 
-      <h3 class="sub-heading">
-        30-day, hassle-free money back guarantee
-      </h3>
+    <div class="container">
+      <div class="heading-container">
+        <h1 class="heading">Join our community</h1>
 
-      <h4 class="text">Gain access to our full library of tutorials along with expert code reviews.
-        Perfect for any developers who are serious about honing their skills.</h4>
-    </div>
+        <h3 class="sub-heading">
+          30-day, hassle-free money back guarantee
+        </h3>
+        <h4 class="text">Gain access to our full library of tutorials along with expert code reviews.
+          Perfect for any developers who are serious about honing their skills.</h4>
+      </div>
+      <div class="frame-container">
+        <div class="frame-1">
+          <div class="content">
+            <div class="frame-heading">Monthly Subscription</div>
 
-    <div class="frame-container">
-      <div class="frame-1">
-        <div class="content">
-          <div class="frame-heading">Monthly Subscription</div>
+            <br>
+            <br>
 
-          <br>
-          <br>
+            <p style="align-content:center;"><span style="font-size: 2rem;">&dollar;29</span>&nbsp;&nbsp;&nbsp;<span
+                style="color:#59c6c7">per month</span></p>
 
-          <p style="align-content:center;"><span style="font-size: 2rem;">&dollar;29</span>&nbsp;&nbsp;&nbsp;<span
-              style="color:#59c6c7">per month</span></p>
+            <br>
 
-          <br>
+            <p style="color:white;font-size:16px;">Full access for less than &dollar;1 a day</p>
 
-          <p style="color:white;font-size:16px;">Full access for less than &dollar;1 a day</p>
+            <br>
+            <br>
 
-          <br>
-          <br>
+            <button class="button" id="signup" value="Sign Up" onmouseenter="changeColor()">
+              Sign Up
+            </button>
 
-          <button class="button" id="signup" value="Sign Up" onmouseenter="changeColor()">
-            Sign Up
-          </button>
+          </div>
 
         </div>
-
-      </div>
-      <div class="frame-2">
-        <div class="content">
-          <div class="frame-heading">Why Us</div>
-          <br>
-          <p class="why-us">
-            Tutorials by industry experts <br>
-            Peer &amp; expert code review <br>
-            Coding exercises <br>
-            Access to our GitHub repos <br>
-            Community forum <br>
-            Flashcard decks <br>
-            New videos every week
-          </p>
+        <div class="frame-2">
+          <div class="content">
+            <div class="frame-heading">Why Us</div>
+            <br>
+            <p class="why-us">
+              Tutorials by industry experts <br>
+              Peer &amp; expert code review <br>
+              Coding exercises <br>
+              Access to our GitHub repos <br>
+              Community forum <br>
+              Flashcard decks <br>
+              New videos every week
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  </main>
+
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
